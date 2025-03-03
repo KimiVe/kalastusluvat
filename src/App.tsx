@@ -1,20 +1,28 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import Header from './components/Header'
+import Links from './components/Links'
+import Homepage from './components/Homepage'
+import Footer from './components/Footer'
+import Searchpage from './components/Searchpage'
+import Questionspage from './components/Questionspage'
+import Aboutuspage from './components/Aboutuspage'
 
-function App() {
+
+const App = () => {
 
   return (
-    <>
-      <h1>Kalastus</h1>
-      <div className="card">
-
-        <p>
-          Luvat
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Test
-      </p>
-    </>
+    <div>
+      <Header />
+      <Links />
+      <Routes>
+        <Route path='/' element={<Homepage />}/>
+        <Route path='/search' element={<Searchpage />}/>
+        <Route path='/questions' element={<Questionspage />} />
+        <Route path='/aboutus' element={<Aboutuspage />} />
+      </Routes>
+      <Footer />
+    </div>
   )
 }
 
