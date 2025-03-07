@@ -1,0 +1,109 @@
+{
+    "MenuBar":  {
+        "language": "Suomi",
+        "search": "Hae",
+        "searchBar": "Hae kalalupaa",
+        "frontPage": "Etusivu",
+        "advancedSearch": "Tarkennettu haku",
+        "commonQuestions": "Yleiset kysymykset",
+        "aboutUs": "Tietoa meistä"
+    },
+    "loginButton" : {
+        "titile0": "Kirjaudu sisään",
+        "title1": "Omat tiedot"
+    },
+    "loginBox" : {
+        "email" : "Sähköposti",
+        "password" : "Salasana",
+        "passwordDescription" : "Unohtuiko salasanasi?",
+        "logginButton": "Kirjaudu sisään",
+        "createAccountButton": "Luo käyttäjä",
+        "createAccountButtonDescription": "Eikö sinulla ole vielä käyttäjää?"
+    },
+    "registerBox":  {
+        "email" : "Sähköposti",
+        "password" : "Salasana",
+        "firstNames" : "Etunimet",
+        "lastName" : "Sukunimi",
+        "dateOfBirth" : "Syntymäaika",
+        "chooseMonth" : "Valitse kuukausi",
+        "chooseYear" : "Valitse vuosi",
+        "CreateAccountButton": "Hyväksy ja luo käyttäjä",
+        "CreateAccountButtonDescription": "Tietoturva lorem ipsum",
+        "link0" : "Tietosuojalauseke",
+        "link1" : "Käyttöehdot"
+    },
+    "frontPage": {
+        "text0Header": "Lorem Ipsum suomeksi",
+        "text0Content": "Lorem Ipsum suomeksi",
+        "text1Header": "Lorem Ipsum suomeksi",
+        "text1Content": "Lorem Ipsum suomeksi",
+        "text1Button": "Lorem Ipsum suomeksi"
+    },
+    "advancedSearch": {
+        "searchBar": "Hakusana",
+        "fish" : "Kalalaji",
+        "fishinType": "Kalastusmuoto",
+        "region" : "Maakunta",
+        "city" : "Paikkakunta",
+        "bodyOfWater": "Vesistö",
+        "searchButton": "Hae",
+        "showMore": "Näytä lisää"
+    },
+    "commonQuestions":{
+        "question0" : "Lorem",
+        "answer0" : "Ipsum",
+        "question1" : "Lorem",
+        "answer1" : "Ipsum"
+    },
+    "aboutUs":{
+        "text0" : "Lorem ipsum",
+        "text1" : "Lorem ipsum"
+    },
+    "myLicences":{
+        "activeLicencesHeader": "Aktiiviset Luvat",
+        "oldLicencesHeader": "Vanhentuneet Luvat"
+    },
+    "profile":  {
+        "header": "Omat tiedot",
+        "name" : "Nimi",
+        "address": "Osoite",
+        "phoneNumber": "Puhelinnumero",
+        "email": "Sähköposti"
+    },
+    "license":  {
+        "bodyOfWater": "Vesistö",
+        "fish": "Kalalajike",
+        "time": "Aika",
+        "price": "Hinta",
+        "sellerButton": "Katso muita luvanmyyjän lupia",
+        "buyButton": "Osta lupa"
+    },
+    "seller":   {
+        "text0": "Lorem ipsum"
+    },
+    "cart": {
+        "shoppingCart" : "Ostoskori",
+        "buyer" : "Vastaanottaja",
+        "payment" : "Maksutapa",
+        "shoppingCartDescription" : " tuote, yhteensä ",
+        "shoppingCartDescriptionPlural" : " tuotetta, yhteensä",
+        "totalAmountText0": "Veroton hinta yhteensä ",
+        "totalAmountText1": "+ alv ",
+        "totalAmountText2": "Yhteensä ",
+        "email" :"Sähköposti",
+        "firstNames" :"Etunimet",
+        "lastName" : "Sukunimi",
+        "address" : "Osoite",
+        "phoneNumber":"Puhelinnumero",
+        "continueButton": "Siirry maksamaan"
+    }
+    
+    
+    
+    
+
+
+    
+    
+}

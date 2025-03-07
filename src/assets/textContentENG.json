@@ -1,0 +1,101 @@
+{
+    "MenuBar":  {
+        "language": "English",
+        "search": "Search",
+        "searchBar": "Search for fishing license",
+        "frontPage": "Home",
+        "advancedSearch": "Advanced search",
+        "commonQuestions": "Common questions",
+        "aboutUs": "About us"
+    },
+    "loginButton" : {
+        "titile0": "Log in",
+        "title1": "My information"
+    },
+    "loginBox" : {
+        "email" : "Email",
+        "password" : "Password",
+        "passwordDescription" : "Forgot your password?",
+        "logginButton": "Log in",
+        "createAccountButton": "Create account",
+        "createAccountButtonDescription": "Don't have an account yet?"
+    },
+    "registerBox":  {
+        "email" : "Email",
+        "password" : "Password",
+        "firstNames" : "First names",
+        "lastName" : "Last name",
+        "dateOfBirth" : "Date of birth",
+        "chooseMonth" : "Choose month",
+        "chooseYear" : "Choose year",
+        "CreateAccountButton": "Accept and create account",
+        "CreateAccountButtonDescription": "Data security lorem ipsum",
+        "link0" : "Privacy policy",
+        "link1" : "Terms of use"
+    },
+    "frontPage": {
+        "text0Header": "Lorem Ipsum in English",
+        "text0Content": "Lorem Ipsum in English",
+        "text1Header": "Lorem Ipsum in English",
+        "text1Content": "Lorem Ipsum in English",
+        "text1Button": "Lorem Ipsum in English"
+    },
+    "advancedSearch": {
+        "searchBar": "Keyword",
+        "fish" : "Fish species",
+        "fishinType": "Fishing type",
+        "region" : "Region",
+        "city" : "City",
+        "bodyOfWater": "Body of water",
+        "searchButton": "Search",
+        "showMore": "Show more"
+    },
+    "commonQuestions":{
+        "question0" : "Lorem",
+        "answer0" : "Ipsum",
+        "question1" : "Lorem",
+        "answer1" : "Ipsum"
+    },
+    "aboutUs":{
+        "text0" : "Lorem ipsum",
+        "text1" : "Lorem ipsum"
+    },
+    "myLicences":{
+        "activeLicencesHeader": "Active licenses",
+        "oldLicencesHeader": "Expired licenses"
+    },
+    "profile":  {
+        "header": "My information",
+        "name" : "Name",
+        "address": "Address",
+        "phoneNumber": "Phone number",
+        "email": "Email"
+    },
+    "license":  {
+        "bodyOfWater": "Body of water",
+        "fish": "Fish species",
+        "time": "Time",
+        "price": "Price",
+        "sellerButton": "See other licenses from the seller",
+        "buyButton": "Buy license"
+    },
+    "seller":   {
+        "text0": "Lorem ipsum"
+    },
+    "cart": {
+        "shoppingCart" : "Shopping cart",
+        "buyer" : "Recipient",
+        "payment" : "Payment method",
+        "shoppingCartDescription" : " product, total ",
+        "shoppingCartDescriptionPlural" : " products, total",
+        "totalAmountText0": "Total price excluding tax ",
+        "totalAmountText1": "+ VAT ",
+        "totalAmountText2": "Total ",
+        "email" :"Email",
+        "firstNames" :"First names",
+        "lastName" : "Last name",
+        "address" : "Address",
+        "phoneNumber":"Phone number",
+        "continueButton": "Proceed to payment"
+    }
+}
