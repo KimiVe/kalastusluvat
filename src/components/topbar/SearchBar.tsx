@@ -1,11 +1,15 @@
 import { theme } from "../../theme"
+import { useSelector, UseSelector } from "react-redux"
+import { AppState } from "../../store"
+
 
 const SearchBar = () => {
+    const textContent = useSelector((state:AppState) => state.selectedLanguage.content)
     return(
         <div style={{display:'flex', flexDirection:'row', height: '30px'
         }}>
-            <input type="text" style={{border: 'none'}} placeholder="Hae kalalupaa"  />
-            <div style={{backgroundColor: theme.colors.green1,width: '45px', alignContent: 'center', textAlign:'center'}}>Hae</div>
+            <input type="text" style={{border: 'none'}} placeholder={textContent.MenuBar.searchBar}  />
+            <div style={{backgroundColor: theme.colors.green1,width: '45px', alignContent: 'center', textAlign:'center'}}>{textContent.MenuBar.search}</div>
         </div>
     )
 }
