@@ -1,5 +1,5 @@
 import { theme } from "../../theme"
-import { useSelector, UseSelector } from "react-redux"
+import { useSelector } from "react-redux"
 import { AppState } from "../../store"
 
 
@@ -9,7 +9,7 @@ const SearchBar = () => {
         <div style={{display:'flex', flexDirection:'row', height: '30px'
         }}>
             <input type="text" style={{border: 'none'}} placeholder={textContent.MenuBar.searchBar}  />
-            <div style={{backgroundColor: theme.colors.green1,width: '45px', alignContent: 'center', textAlign:'center'}}>{textContent.MenuBar.search}</div>
+            <div style={{backgroundColor: theme.colors.green1,width: '45px', alignContent: 'center', textAlign:'center', cursor: 'pointer'}}>{textContent.MenuBar.search}</div>
         </div>
     )
 }
