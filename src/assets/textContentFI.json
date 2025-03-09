@@ -97,13 +97,20 @@
         "address" : "Osoite",
         "phoneNumber":"Puhelinnumero",
         "continueButton": "Siirry maksamaan"
+    },
+
+    "Footer": {
+        "cookies" : "Evästeet",
+        "social-media" : "Sosiaalinen media",
+        "contact" : "Ota yhteyttä",
+        "feedback" : "Anna palautetta"
+
+    },
+
+    "Aboutuspage": {
+        "text2": "Tervetuloa käyttämään Kala-Appia!",
+        "text3": "Tällä sivustolla pystyt ostamaan kalastuslupia ympäri Suomea."
+
     }
-    
-    
-    
-    
-
-
-    
     
 }
