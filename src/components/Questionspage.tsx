@@ -1,4 +1,4 @@
-import { useSelector, UseSelector } from "react-redux";
+import { useSelector} from "react-redux";
 import { AppState } from "../store";
 import "./styles/SharedStyles.css";
 import QuestionAnswer from "./QuestionAnswer";
