@@ -98,12 +98,19 @@ export interface textContent
         address: string,
         phoneNumber:string,
         continueButton: string
-    }
-    
-    
-    
-    
+    },
 
+    Footer: {
+        cookies: string;
+        'social-media': string;
+        contact: string;
+        feedback: string;
+      },
+
+      Aboutuspage: {
+        text2: string,
+        text3: string,
+      }
 
     
     

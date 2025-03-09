@@ -97,5 +97,18 @@
         "address" : "Address",
         "phoneNumber":"Phone number",
         "continueButton": "Proceed to payment"
-    }
+    },
+
+    "Footer": {
+        "cookies" : "Cookies",
+        "social-media" : "Social media",
+        "contact" : "Contact us",
+        "feedback" : "Give feedback"
+},
+
+"Aboutuspage": {
+  "text2": "Welcome to use Kala-App!",
+  "text3": "On this site, you can purchase fishing licenses across Finland."
+
+}
 }
