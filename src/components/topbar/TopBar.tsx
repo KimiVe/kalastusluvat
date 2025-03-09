@@ -2,9 +2,10 @@ import { theme } from "../../theme"
 import LanguageSelector from "./LanguageSelector"
 import SignIn from "./SignIn"
 import SearchBar from "./SearchBar"
+import { CSSProperties } from "react";
 
 const TopBar = () => {
-    const topbarStyle = {
+    const topbarStyle : CSSProperties = {
         backgroundColor: theme.colors.green3,
         height: '70px',
         display: 'flex',
