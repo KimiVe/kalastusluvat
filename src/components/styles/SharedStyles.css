@@ -1,11 +1,11 @@
 :root {
-    --primaryColour: #196229;
-    --activeColour: #0A3413;
-    --primaryBackgroundColour: #64AB74;
-    --secondaryBackground: #C1D0C4;
-    --white: #C1D0C4;
+    --primaryColour: #3674B5;
+    --activeColour: #265281;
+    --primaryBackgroundColour: #578FCA;
+    --secondaryBackground: #E0E6FF;
+    --white: #F9F9F9;
     --textColour: #0A0A0A;
-    --alternateTextColour: #C1C4D0;
+    --alternateTextColour: #888EA0;
 }
 
 .content-box {
@@ -16,8 +16,6 @@
     margin-right: auto;
     background-color: var(--secondaryBackground);
     padding-bottom: 1%;
-
-
 }
 
 .content-text-header {
