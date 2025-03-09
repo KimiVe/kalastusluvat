@@ -1,0 +1,35 @@
+:root {
+    --primaryColour: #196229;
+    --activeColour: #0A3413;
+    --primaryBackgroundColour: #64AB74;
+    --secondaryBackground: #C1D0C4;
+    --white: #C1D0C4;
+    --textColour: #0A0A0A;
+    --alternateTextColour: #C1C4D0;
+}
+
+.content-box {
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--secondaryBackground);
+    padding-bottom: 1%;
+
+
+}
+
+.content-text-header {
+    color: var(--textColour);
+    font-weight: bold;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 20%;
+}
+
+.content-text {
+    color: var(--textColour);
+    padding-left: 2%;
+    padding-right: 20%;
+}
