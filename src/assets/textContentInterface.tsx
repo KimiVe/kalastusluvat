@@ -73,7 +73,7 @@ export interface textContent
         activeLicencesHeader: string,
         oldLicencesHeader: string
     },
-    profile:  {
+    Profile:  {
         header: string,
         name : string,
         address: string,

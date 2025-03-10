@@ -72,7 +72,7 @@
         "activeLicencesHeader": "Active licenses",
         "oldLicencesHeader": "Expired licenses"
     },
-    "profile":  {
+    "Profile":  {
         "header": "My information",
         "name" : "Name",
         "address": "Address",

@@ -72,7 +72,7 @@
         "activeLicencesHeader": "Aktiiviset Luvat",
         "oldLicencesHeader": "Vanhentuneet Luvat"
     },
-    "profile":  {
+    "Profile":  {
         "header": "Omat tiedot",
         "name" : "Nimi",
         "address": "Osoite",
@@ -108,7 +108,7 @@
     },
 
     "Footer": {
-        "cookies" : "Evästeet",
+        "cookies" : "Tietoja evästeistä",
         "social-media" : "Sosiaalinen media",
         "contact" : "Ota yhteyttä",
         "feedback" : "Anna palautetta"
