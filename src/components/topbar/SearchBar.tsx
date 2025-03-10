@@ -1,15 +1,13 @@
-import { theme } from "../../theme"
 import { useSelector } from "react-redux"
 import { AppState } from "../../store"
-
+import '../styles/TopBar.css'
 
 const SearchBar = () => {
     const textContent = useSelector((state:AppState) => state.selectedLanguage.content)
     return(
-        <div style={{display:'flex', flexDirection:'row', height: '30px'
-        }}>
-            <input type="text" style={{border: 'none'}} placeholder={textContent.MenuBar.searchBar}  />
-            <div style={{backgroundColor: theme.colors.green1,width: '45px', alignContent: 'center', textAlign:'center', cursor: 'pointer'}}>{textContent.MenuBar.search}</div>
+        <div className="searchbar">
+            <input className="searchbar-input" type="text"/>
+            <div className="searchbar-button">{textContent.MenuBar.search}</div>
         </div>
     )
 }

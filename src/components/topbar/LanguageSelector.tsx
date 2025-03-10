@@ -19,7 +19,7 @@ const LanguageSelector = () => {
     }
 
     return(
-        <div style={{display: 'flex', flexDirection:'row'}}>
+        <div className='languageselect'>
             <MdLanguage size={35} color='white'/> 
             <Dropdown options={languages} value={defaultLanguage} onChange={(v) => handleLanguageChange(v.value)}/>
         </div>

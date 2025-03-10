@@ -1,50 +1,37 @@
-import { theme } from "../theme"
+import './styles/Links.css'
 import { Link } from "react-router-dom"
+import { AppState } from '../store'
+import { useSelector } from 'react-redux'
 
 const Links = () => {
-    const linkStyle = {
-        textDecoration: 'none',
-        color: theme.colors.white,
-   
-    }
-    const linkBackground = {
-        backgroundColor: theme.colors.green4,
-        padding: '5px',
-        display: 'flex',
-        alignContent: 'center',
-        flexGrow: 1,
-        justifyContent: 'center'
-    }
+    const content = useSelector((state:AppState) => state.selectedLanguage.content)
 
     return (
-        <div style={{display: "flex", flexDirection: "row"}}>
-            <div style={{backgroundColor: theme.colors.green1, flexGrow: 1}}>
-            </div>
-            <div style={{flexGrow: 3, display:'flex', justifyContent:'space-evenly'}}>
-                <div style={linkBackground}>
-                <Link to={'/'} style={linkStyle}>
-                    Etusivu
+        <div className='linkbar'>
+            <div className='sidefiller' />
+            <div className='link-wrapper'>
+                <div className='link-background'>
+                <Link className='link' to={'/'}>
+                    {content.MenuBar.frontPage}
                 </Link>
                 </div>
-               <div style={linkBackground}>
-               <Link to={'/search'} style={linkStyle}>
-                    Tarkennettu haku
+               <div className='link-background'>
+               <Link className='link' to={'/search'} >
+                    {content.MenuBar.advancedSearch}
                 </Link>
                </div>
-                <div style={linkBackground}>
-                <Link to={'/questions'} style={linkStyle}>
-                    Yleiset kysymykset
+                <div className='link-background'>
+                <Link className='link' to={'/questions'} >
+                    {content.MenuBar.commonQuestions}
                 </Link>
                 </div>
-                <div style={linkBackground}>
-                <Link to={'/aboutus'} style={linkStyle}>
-                    Tietoa meistä
+                <div className='link-background'>
+                <Link className='link' to={'/aboutus'} >
+                    {content.MenuBar.aboutUs}
                 </Link>
                 </div>
-                
             </div>
-            <div style={{backgroundColor: theme.colors.green1, flexGrow: 1}}>
-            </div>
+            <div className='sidefiller' />
         </div>
     )
 }

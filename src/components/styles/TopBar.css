@@ -1,0 +1,38 @@
+
+.topbar {
+    background-color: var(--primaryBackgroundColour);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.signin {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.searchbar-input {
+    border: none;
+}
+
+.searchbar-button {
+    background-color: var(--secondaryBackground);
+    width: 45px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.languageselect {
+    display: flex;
+    flex-direction: row;
+}

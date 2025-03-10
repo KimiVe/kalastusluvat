@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux"
 import { AppState } from "../../store"
+import '../styles/TopBar.css'
 
 const SignIn = () => {
     const textContent = useSelector((state:AppState) => state.selectedLanguage.content)
@@ -7,7 +8,7 @@ const SignIn = () => {
 
     return(
         <div>
-            <div style={{backgroundColor: 'white', padding: '10px', cursor: 'pointer'}} >
+            <div className="signin">
                 {textContent.loginButton.titile0}
             </div>
         </div>
