@@ -31,30 +31,43 @@ const Homepage = () => {
     
    
     return (
-        <div>
-            <button onClick={() => setLanguage('en')}>English</button>
-            <button onClick={() => setLanguage('fi')}>Suomi</button>
-            <MenuBar data={data.MenuBar} />
-            <h1>{data.frontPage.text0Header}</h1>
-            <p>{data.frontPage.text0Content}</p>
-            <button>{data.frontPage.text1Button}</button>
-            <div>
-                <p>{data.MenuBar.frontPage}</p>
-                <p>{data.MenuBar.aboutUs}</p>
-            </div>
-            <div>
-                <button>{data.loginButton.titile0}</button>
-            </div>
-            <div>
-                <p>{data.loginBox.email}</p>
-                <p>{data.loginBox.passwordDescription}</p>
-                <button>{data.loginBox.logginButton}</button>
-            </div>
+        <div className="homepage">
+            <header>
+                <div className="logo">Kala-Appi</div>
+                <div className="search-bar">
+                    <input type="text" placeholder={data.searchBar} />
+                    <button>{data.search}</button>
+                </div>
+                <div className="language-select">
+                    <button onClick={() => setLanguage('en')}>English</button>
+                    <button onClick={() => setLanguage('fi')}>Suomeksi (FI)</button>
+                </div>
+                <button className="login-button" onClick={() => setShowLogin(true)}>{data.loginButton.titile0}</button>
+            </header>
+            <nav>
+                <MenuBar data={data.MenuBar} onLoginClick={() => setShowLogin(true)} />
+            </nav>
+            <main>
+                <h1>{data.frontPage.text0Header}</h1>
+                <p>{data.frontPage.text0Content}</p>
+                <button>{data.frontPage.text1Button}</button>
+                <section>
+                    <h2>Kalastonhoitomaksu</h2>
+                    <p>"Kalastonhoitomaksu on kalastajan pakollinen perusmaksu, joka tulee maksaa, jos on iältään 
+                        18–69-vuotias ja kalastaa vieheellä tai pyydyksillä tai ravustaa. Tämä tarkoittaa sitä, 
+                        että kun kalastat esimerkiksi virvelillä, verkoilla tai katiskalla, tarvitset aina 
+                        kalastonhoitomaksun. Poikkeuksena ovat kalastajat, jotka ehtivät täyttää vähintään 
+                        65 vuotta 31.12.2023 mennessä."</p>
+                    <a href="https://www.eraluvat.fi/kalastus/kalastonhoitomaksu" target="_blank" rel="noopener noreferrer">Maksa kalastonhoitomaksu</a>
+                </section>
+            </main>
+            {showLogin && <LoginBox data={data.loginBox} onClose={() => setShowLogin(false)} />}
             <div>
                 <p>{data.registerBox.email}</p>
                 <button>{data.registerBox.CreateAccountButton}</button>
             </div>
         </div>
     );
-}
+};
+
 export default Homepage
