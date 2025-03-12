@@ -6,12 +6,14 @@ const SignIn = () => {
     const textContent = useSelector((state:AppState) => state.selectedLanguage.content)
 
 
-    return(
-        <div>
-            <div className="signin">
-                {textContent.loginButton.titile0}
-            </div>
+    return (
+        <div className="login-box">
+            <button onClick={onClose}>Close</button>
+            <p>{data.email}</p>
+            <p>{data.passwordDescription}</p>
+            <button>{data.loginButton}</button>
         </div>
-    )
+    );
 }
 export default SignIn
+
