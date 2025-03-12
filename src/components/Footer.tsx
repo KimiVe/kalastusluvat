@@ -11,19 +11,19 @@ const Footer = () => {
       style={{
         backgroundColor: theme.colors.green3,
         color: theme.colors.white,
-        padding: '20px',
-        textAlign: 'center',
-        position: 'fixed',
+        padding: '30px',
         bottom: 0,
         width: '100%',
+        textAlign: 'center',
+        position: 'fixed'
       }}
     >
       <div
         style={{
           display: 'flex',
-          justifyContent: 'center',
           gap: '30px',
           alignItems: 'center',
+          justifyContent: 'center'
         }}
       >
         <h2 style={{ margin: 0, color: 'black' }}>Kala-Appi</h2>
