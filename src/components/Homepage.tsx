@@ -65,7 +65,7 @@ const Homepage = () => {
                     </a>
                 </section>
             </main>
-            {showLogin && <LoginBox data={data.loginBox} onClose={() => setShowLogin(false)} />}
+           
         </div>
     );
 };
