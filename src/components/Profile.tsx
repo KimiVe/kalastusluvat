@@ -9,28 +9,27 @@ const Profile = () => {
     <div
       style={{
         display: 'flex',
+        backgroundColor: '#f4f4f4', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        minHeight: '100vh', 
-        backgroundColor: '#f4f4f4', 
+        minHeight: '100vh' 
       }}
     >
       <div
         style={{
           position: 'relative', 
           display: 'flex',
-          justifyContent: 'center', 
-          alignItems: 'center', 
-          height: '500px', 
-          backgroundColor: theme.colors.green2, 
-          padding: '20px',
           textAlign: 'center',
+          justifyContent: 'center', 
+          height: '600px', 
+          backgroundColor: theme.colors.green2, 
+          padding: '30px',
           maxWidth: '900px', 
-          width: '100%',
+          width: '100%'
         }}
       >
 
-<div style={{ textAlign: 'left', marginTop: '20px', width: '100%' }}>
+<div style={{ textAlign: 'left', marginTop: '30px', width: '200%' }}>
           <p>
             <strong>{content.Profile.header}:</strong>
           </p>
