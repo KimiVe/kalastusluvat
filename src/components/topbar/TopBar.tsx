@@ -1,5 +1,6 @@
 import LanguageSelector from "./LanguageSelector"
 import SignIn from "./SignIn"
+import MyInformation from "./MyInformation"
 import SearchBar from "./SearchBar"
 import '../styles/TopBar.css'
 
@@ -11,7 +12,7 @@ const TopBar = () => {
             </div>
             <SearchBar />
             <LanguageSelector />
-            <SignIn />  
+            <MyInformation />  
         </div>
     )
 }

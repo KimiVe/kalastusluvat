@@ -9,8 +9,12 @@
         "aboutUs": "Tietoa meistä"
     },
     "loginButton" : {
-        "titile0": "Kirjaudu sisään",
-        "title1": "Omat tiedot"
+        "login": "Kirjaudu sisään"
+    },
+    "myInformationButton" : {
+        "myInformation": "Omat tiedot",
+        "myLicenses": "Luvat",
+        "shoppingCart": "Ostoskori"
     },
     "loginBox" : {
         "email" : "Sähköposti",

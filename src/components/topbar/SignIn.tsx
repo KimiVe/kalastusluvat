@@ -9,7 +9,7 @@ const SignIn = () => {
     return(
         <div>
             <div className="signin">
-                {textContent.loginButton.titile0}
+                {textContent.loginButton.login}
             </div>
         </div>
     )

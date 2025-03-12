@@ -10,8 +10,12 @@ export interface textContent
         aboutUs: string
     },
     loginButton : {
-        titile0: string,
-        title1: string
+        login: string
+    },
+    myInformationButton : {
+        myInformation: string,
+        myLicenses: string,
+        shoppingCart: string
     },
     loginBox : {
         email: string,

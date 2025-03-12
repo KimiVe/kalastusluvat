@@ -9,8 +9,12 @@
         "aboutUs": "About us"
     },
     "loginButton" : {
-        "titile0": "Log in",
-        "title1": "My information"
+        "login": "Log in"
+    },
+    "myInformationButton" : {
+        "myInformation": "My information",
+        "myLicenses": "Log in",
+        "shoppingCart": "Shopping cart"
     },
     "loginBox" : {
         "email" : "Email",
