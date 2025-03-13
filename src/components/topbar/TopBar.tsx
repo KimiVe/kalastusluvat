@@ -12,7 +12,9 @@ const TopBar = () => {
             </div>
             <SearchBar />
             <LanguageSelector />
+            <SignIn />
             <MyInformation />  
+
         </div>
     )
 }
