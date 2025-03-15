@@ -11,8 +11,7 @@ import Profile from './components/Profile'
 import ShoppingCart from './components/ShoppingCart'
 import Licenses from './components/Licenses'
 
-const App = () => {
-
+const App: React.FC = () => {
   return (
     <div>
       <TopBar />
@@ -25,7 +24,6 @@ const App = () => {
         <Route path='/myinformation' element={<Profile />} />
         <Route path='/shoppingcart' element={<ShoppingCart />} />
         <Route path='/licenses' element={<Licenses />} />
-
       </Routes>
       <Footer />
     </div>
