@@ -81,7 +81,9 @@
         "name" : "Name",
         "address": "Address",
         "phoneNumber": "Phone number",
-        "email": "Email"
+        "email": "Email",
+        "edit" : "Edit",
+        "save" : "Save"
     },
     "license":  {
         "bodyOfWater": "Body of water",

@@ -82,7 +82,9 @@ export interface textContent
         name : string,
         address: string,
         phoneNumber: string,
-        email: string
+        email: string,
+        edit: string,
+        save: string
     },
     license:  {
         bodyOfWater: string,

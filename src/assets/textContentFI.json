@@ -81,7 +81,9 @@
         "name" : "Nimi",
         "address": "Osoite",
         "phoneNumber": "Puhelinnumero",
-        "email": "Sähköposti"
+        "email": "Sähköposti",
+        "edit" : "Muokkaa",
+        "save" : "Tallenna"
     },
     "license":  {
         "bodyOfWater": "Vesistö",
@@ -106,7 +108,7 @@
         "email" :"Sähköposti",
         "firstNames" :"Etunimet",
         "lastName" : "Sukunimi",
-        "address" : "Osoite",
+        "address" : "Laskutussoite",
         "phoneNumber":"Puhelinnumero",
         "continueButton": "Siirry maksamaan"
     },
