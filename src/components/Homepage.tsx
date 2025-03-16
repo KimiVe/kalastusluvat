@@ -1,5 +1,3 @@
-
-
 import "./styles/SharedStyles.css";
 import './styles/TopBar.css'
 import './styles/Links.css'
@@ -7,6 +5,7 @@ import 'react-dropdown/style.css'
 import './topbar/TopBar.tsx';
 import { Link } from "react-router-dom";
 import './Footer.tsx'
+import './topbar/MyInformation.tsx'
 
 const handleButtonClick = () => {
   window.location.href = "https://www.eraluvat.fi/kalastus/kalastonhoitomaksu";
