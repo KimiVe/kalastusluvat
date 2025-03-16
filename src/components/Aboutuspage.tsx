@@ -21,19 +21,20 @@ const Aboutuspage = () => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '500px',
-          backgroundColor: theme.colors.green2,
-          padding: '20px',
           textAlign: 'center',
           maxWidth: '900px',
           width: '100%',
+          height: '600px',
+          backgroundColor: theme.colors.green2,
+          padding: '30px'
+
         }}
       >
         <h2
           style={{
             position: 'absolute',
-            top: '10px',
-            right: '10px',
+            top: '20px',
+            right: '20px',
             margin: 0,
             color: 'black',
           }}

@@ -7,7 +7,9 @@ import Searchpage from './components/Searchpage'
 import Questionspage from './components/Questionspage'
 import Aboutuspage from './components/Aboutuspage'
 import Links from './components/Links'
-
+import Profile from './components/Profile'
+import ShoppingCart from './components/ShoppingCart'
+import Licenses from './components/Licenses'
 
 const App = () => {
 
@@ -20,6 +22,10 @@ const App = () => {
         <Route path='/search' element={<Searchpage />}/>
         <Route path='/questions' element={<Questionspage />} />
         <Route path='/aboutus' element={<Aboutuspage />} />
+        <Route path='/myinformation' element={<Profile />} />
+        <Route path='/shoppingcart' element={<ShoppingCart />} />
+        <Route path='/licenses' element={<Licenses />} />
+
       </Routes>
       <Footer />
     </div>

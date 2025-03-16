@@ -14,6 +14,19 @@
     cursor: pointer;
 }
 
+.myinformation {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.myinformation-links {
+    text-decoration: none;
+}
+.myinformation-select {
+    
+
+}
+
 .searchbar {
     display: flex;
     flex-direction: row;
