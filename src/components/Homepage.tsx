@@ -16,11 +16,6 @@ const Homepage = () => {
             <li><Link to="/questions">Yleiset kysymykset</Link></li>
             <li><Link to="/aboutus">Tietoa meistä</Link></li>
           </ul>
-          <div className="search-bar">
-            <input type="text" placeholder="Hae kalalupaa" />
-            <button>Hae</button>
-          </div>
-          <button className="login-button">Kirjaudu Sisään</button>
         </nav>
       </header>
       
