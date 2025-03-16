@@ -11,6 +11,7 @@ import './Footer.tsx'
 const handleButtonClick = () => {
   window.location.href = "https://www.eraluvat.fi/kalastus/kalastonhoitomaksu";
 };
+
 const Homepage = () => {
   return (
     <div className="homepage">
