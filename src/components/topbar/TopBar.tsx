@@ -1,6 +1,7 @@
 import LanguageSelector from "./LanguageSelector"
 import MyInformation from "./MyInformation"
 import SearchBar from "./SearchBar"
+import Users from "./Users"
 import '../styles/TopBar.css'
 
 const TopBar = () => {
@@ -11,7 +12,9 @@ const TopBar = () => {
             </div>
             <SearchBar />
             <LanguageSelector />
-            <MyInformation />  
+            <MyInformation /> 
+            <Users /> 
+
             
 
         </div>
