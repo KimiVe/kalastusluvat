@@ -2,7 +2,7 @@
 const Shareholder = () => {
     return (
         <div>
-            ostoskori
+            osakaskunta
         </div>
     )
 }
