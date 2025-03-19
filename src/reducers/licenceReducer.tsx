@@ -18,7 +18,7 @@ const licenceSlice = createSlice({
     name: 'licences',
     initialState,
     reducers: {
-        setLicences(state, action){
+        setLicences(_state, action){
             return action.payload
         }
     }
