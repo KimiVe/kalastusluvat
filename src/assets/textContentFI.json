@@ -38,12 +38,13 @@
         "link1" : "Käyttöehdot"
     },
     "frontPage": {
-        "text0Header": "Lorem Ipsum suomeksi",
-        "text0Content": "Lorem Ipsum suomeksi",
-        "text1Header": "Lorem Ipsum suomeksi",
-        "text1Content": "Lorem Ipsum suomeksi",
-        "text1Button": "Lorem Ipsum suomeksi"
+        "text0Header": "Yli 1000 kalalupaa helposti saatavilla",
+        "text0Content": "Sivustomme tarjoaa helpon ja kätevän tavan löytää ja ostaa yli 1000 kalastuslupaa suoraan osakaskunnilta. Olitpa sitten intohimoinen kalastaja tai vasta-alkaja, meiltä löydät tarvitsemasi luvat vaivattomasti netin kautta. Säästä aikaa ja vaivaa – tutustu laajaan valikoimaamme ja hanki kalastuslupasi jo tänään!",
+        "text1Header": "Muista maksaa kalastonhoitomaksu!",
+        "text1Content": "Kalastonhoitomaksu on kalastajan pakollinen perusmaksu, joka tulee maksaa, jos on iältään 18–69-vuotias ja kalastaa vieheellä tai pyydyksillä tai ravustaa. Tämä tarkoittaa sitä, että kun kalastat esimerkiksi virvelillä, verkoilla tai katiskalla, tarvitset aina kalastonhoitomaksun. Poikkeuksena ovat kalastajat, jotka ehtivät täyttää vähintään 65 vuotta 31.12.2023 mennessä.",
+        "text1Button": "Maksa kalastonhoito maksu"
     },
+
     "advancedSearch": {
         "searchBar": "Hakusana",
         "fish" : "Kalalaji",
@@ -54,6 +55,7 @@
         "searchButton": "Hae",
         "showMore": "Näytä lisää"
     },
+ 
     "commonQuestions":{
         "question0" : "Miten voin ostaa luvan?",
         "answer0" : "Voit ostaa luvan, kun olet luonut käyttäjän",
