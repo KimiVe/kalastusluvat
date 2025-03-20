@@ -6,6 +6,7 @@ const SignIn = () => {
     const textContent = useSelector((state:AppState) => state.selectedLanguage.content)
 
 
+    
     return(
         <div>
             <div className="signin">
