@@ -3,6 +3,7 @@ import MyInformation from "./MyInformation"
 import SearchBar from "./SearchBar"
 import Users from "./Users"
 import '../styles/TopBar.css'
+import SignIn from "./SignIn"
 
 const TopBar = () => {
     return (
@@ -14,6 +15,8 @@ const TopBar = () => {
             <LanguageSelector />
             <MyInformation /> 
             <Users /> 
+            <SignIn /> 
+            
 
             
 
