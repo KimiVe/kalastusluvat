@@ -3,7 +3,6 @@ import './styles/TopBar.css'
 import './styles/Links.css'
 import 'react-dropdown/style.css'
 import './topbar/TopBar.tsx';
-import { Link } from "react-router-dom";
 import './Footer.tsx'
 import './topbar/MyInformation.tsx'
 

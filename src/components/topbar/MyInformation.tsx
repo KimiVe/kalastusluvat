@@ -44,12 +44,5 @@ const MyInformation = () => {
     )
 
 }
-/* <div className="myinformation">{content.myInformationButton.myInformation}</div>
-                 <div className="myinformation-container">
-                <Link className="myinformation-links" to={'/mylicenses'} >{content.myInformationButton.myLicenses}</Link>
-                <Link className="myinformation-links" to={'/myinformation'} >{content.myInformationButton.myInformation}</Link>
-                <Link className="myinformation-links" to={'/shoppingcart'} >{content.myInformationButton.shoppingCart}</Link>
-                 </div>*/ 
-
 
 export default MyInformation;

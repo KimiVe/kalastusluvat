@@ -1,5 +1,4 @@
 import LanguageSelector from "./LanguageSelector"
-import SignIn from "./SignIn"
 import MyInformation from "./MyInformation"
 import SearchBar from "./SearchBar"
 import Users from "./Users"
@@ -13,9 +12,9 @@ const TopBar = () => {
             </div>
             <SearchBar />
             <LanguageSelector />
-            <SignIn />
-            <MyInformation />  
-            <Users />  
+            <MyInformation /> 
+            <Users /> 
+
             
 
         </div>
