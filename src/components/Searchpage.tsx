@@ -5,6 +5,7 @@ import 'react-dropdown/style.css'
 import { AppState } from "../store";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 const Searchpage = () => {
     interface Licence {
         lupa_id: number;
@@ -15,8 +16,11 @@ const Searchpage = () => {
         vesisto: string;
         nimi: string;
       }
-
+    
+    
+    const location = useLocation()
     const [filter, setFilter] = useState({
+        nimi: location.state === null ? '' : location.state.searchInput,
         kalalaji: 'Kalalaji',
         kalastusmuoto: 'Kalastusmuoto',
         maakunta: 'Maakunta',
@@ -30,17 +34,23 @@ const Searchpage = () => {
     const paikkakunta = ['Paikkakunta',...new Set(licences.map(licence => licence.paikkakunta))]
     const vesisto = ['Vesistö',...new Set(licences.map(licence => licence.vesisto))]
 
+
     const [filteredLicences, setFilteredLicences] = useState<Licence[]>([])
 
     useEffect(()=> {
         setFilteredLicences(licences)
     },[licences])
 
+    useEffect(() => {
+        handleSearch()
+    },[filter])
+   
 
     const handleSearch = () => {
         setFilteredLicences(
             licences.filter((licence) => {
               return (
+                (filter.nimi === '' || licence.nimi.includes(filter.nimi) )&&
                 (filter.kalalaji === 'Kalalaji' || licence.kalalaji === filter.kalalaji) &&
                 (filter.kalastusmuoto === 'Kalastusmuoto' ||
                   licence.kalastusmuoto === filter.kalastusmuoto) &&
@@ -56,7 +66,10 @@ const Searchpage = () => {
         <div className="content-box">
             <div className="search-wrapper" >
             <div className="search-filter" style={{height: '50vh'}}>
-                <input placeholder="Hakusana" className='search-field' type="text" />
+                <input placeholder="Hakusana" className='search-field' type="text" value={filter.nimi} onChange={(v) => setFilter({
+                    ...filter,
+                    nimi: v.target.value
+                })}/>
                 <Dropdown className="dropdown" options={kalalaji} value={'Kalalaji'} onChange={(v) => setFilter({
                     ...filter,
                     kalalaji: v.value
@@ -77,7 +90,6 @@ const Searchpage = () => {
                     ...filter,
                     vesisto: v.value
                 })}/>
-                <div className="search-button" onClick={handleSearch}> Hae</div>
             </div>
             <div className="licences">
                 {filteredLicences.map((licence) => (
@@ -93,3 +105,5 @@ const Searchpage = () => {
 }
 
 export default Searchpage
+// poistettu hae painike, tulokset päivittyy automaattisesti
+ //<div className="search-button" onClick={handleSearch}> Hae</div>

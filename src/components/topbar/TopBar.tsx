@@ -3,7 +3,7 @@ import MyInformation from "./MyInformation"
 import SearchBar from "./SearchBar"
 import '../styles/TopBar.css'
 import SignIn from "./SignIn"
-import { useSelector, UseSelector } from "react-redux"
+import { useSelector } from "react-redux"
 import { AppState } from "../../store"
 import Users from "./Users"
 
