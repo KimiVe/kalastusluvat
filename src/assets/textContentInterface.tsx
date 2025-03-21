@@ -15,7 +15,8 @@ export interface textContent
     myInformationButton : {
         myInformation: string,
         myLicenses: string,
-        shoppingCart: string
+        shoppingCart: string,
+        signout: string
     },
     loginBox : {
         email: string,

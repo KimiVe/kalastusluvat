@@ -14,7 +14,8 @@
     "myInformationButton" : {
         "myInformation": "My information",
         "myLicenses": "Licences",
-        "shoppingCart": "Shopping cart"
+        "shoppingCart": "Shopping cart",
+        "signout": "Sign Out"
     },
     "loginBox" : {
         "email" : "Email",

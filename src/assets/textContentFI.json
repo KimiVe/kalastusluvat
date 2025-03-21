@@ -14,7 +14,8 @@
     "myInformationButton" : {
         "myInformation": "Omat tiedot",
         "myLicenses": "Luvat",
-        "shoppingCart": "Ostoskori"
+        "shoppingCart": "Ostoskori",
+        "signout": "Kirjaudu ulos"
     },
     "loginBox" : {
         "email" : "Sähköposti",

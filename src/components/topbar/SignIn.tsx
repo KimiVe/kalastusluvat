@@ -2,10 +2,17 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { AppState } from '../../store';
 import '../styles/SignIn.css';
+import { useDispatch } from 'react-redux';
+import { signIn } from '../../reducers/signInReducer';
 
 const SignIn = () => {
     const textContent = useSelector((state: AppState) => state.selectedLanguage.content);
     const [isModalOpen, setIsModalOpen] = useState(false); 
+
+    const dispatch = useDispatch();
+    const handleSignin = () => {
+        dispatch(signIn())
+    }
 
     const handleOpenModal = () => {
         setIsModalOpen(true);
@@ -29,7 +36,7 @@ const SignIn = () => {
                      <input type="email" placeholder={textContent.loginBox.email} />
                      <input type="password" placeholder={textContent.loginBox.password} />
                      <p>{textContent.loginBox.passwordDescription}</p>
-                     <button>{textContent.loginBox.logginButton}</button>
+                     <button onClick={handleSignin}>{textContent.loginBox.logginButton}</button>
                      <button>{textContent.loginBox.createAccountButton}</button>
                      <p>{textContent.loginBox.createAccountButtonDescription}</p>
                  </div>
