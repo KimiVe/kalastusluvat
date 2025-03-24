@@ -18,6 +18,7 @@
         "signout": "Kirjaudu ulos"
     },
     "loginBox" : {
+        "username" : "Käyttäjätunnus",
         "email" : "Sähköposti",
         "password" : "Salasana",
         "passwordDescription" : "Unohtuiko salasanasi?",
