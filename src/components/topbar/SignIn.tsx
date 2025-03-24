@@ -82,7 +82,7 @@ const SignIn = () => {
                         <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
                         {isRegistering && (
                             <>
-                                <input type="text" name="fullName" placeholder="Full Name" value={formData.fullName} onChange={handleChange} required />
+                                <input type="text" name="fullname" placeholder="Full Name" value={formData.fullname} onChange={handleChange} required />
                                 <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
                                 <input type="text" name="address" placeholder="Address" value={formData.address} onChange={handleChange} required />
                                 <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
