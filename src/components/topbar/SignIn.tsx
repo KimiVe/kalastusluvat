@@ -13,7 +13,7 @@ const SignIn = () => {
     const [formData, setFormData] = useState({
         username: '',
         password: '',
-        fullName: '',
+        fullname: '',
         email: '',
         address: '',
         phone: ''
