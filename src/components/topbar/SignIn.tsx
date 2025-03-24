@@ -78,14 +78,14 @@ const SignIn = () => {
                     <div className="modal-content">
                         <span className="close" onClick={() => setIsModalOpen(false)}>&times;</span>
                         <h2>{isRegistering ? 'Register' : textContent.loginButton.login}</h2>
-                        <input type="text" name="username" placeholder={textContent.loginBox.username}value={formData.username} onChange={handleChange} required />
-                        <input type="password" name="password" placeholder={textContent.loginBox.password} value={formData.password} onChange={handleChange} required />
+                        <input type="text" name="username" placeholder="Username/Käyttäjätunnus" value={formData.username} onChange={handleChange} required />
+                        <input type="password" name="password" placeholder="Password/Salasana" value={formData.password} onChange={handleChange} required />
                         {isRegistering && (
                             <>
-                                <input type="text" name="fullname" placeholder={textContent.registerBox.fullname} value={formData.fullname} onChange={handleChange} required />
-                                <input type="email" name="email" placeholder={textContent.registerBox.email} value={formData.email} onChange={handleChange} required />
-                                <input type="text" name="address" placeholder={textContent.registerBox.address} value={formData.address} onChange={handleChange} required />
-                                <input type="tel" name="phone" placeholder={textContent.registerBox.phoneNumber} value={formData.phone} onChange={handleChange} required />
+                                <input type="text" name="fullname" placeholder="Full name/Koko nimi" value={formData.fullname} onChange={handleChange} required />
+                                <input type="email" name="email" placeholder="Email/Sähköposti" value={formData.email} onChange={handleChange} required />
+                                <input type="text" name="address" placeholder="Address/Osoite" value={formData.address} onChange={handleChange} required />
+                                <input type="tel" name="phone" placeholder="Phonenumber/Puhelinnumero" value={formData.phone} onChange={handleChange} required />
                             </>
                         )}
                         {error && <p className="error-message">{error}</p>}
