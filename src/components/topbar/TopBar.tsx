@@ -1,27 +1,23 @@
-import { theme } from "../../theme"
 import LanguageSelector from "./LanguageSelector"
-import SignIn from "./SignIn"
+import MyInformation from "./MyInformation"
 import SearchBar from "./SearchBar"
-import { CSSProperties } from "react";
+import '../styles/TopBar.css'
+import SignIn from "./SignIn"
+import { useSelector } from "react-redux"
+import { AppState } from "../../store"
+import Users from "./Users"
 
 const TopBar = () => {
-    const topbarStyle : CSSProperties = {
-        backgroundColor: theme.colors.green3,
-        height: '70px',
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        alignItems: 'center'
-    }
-
+    const isSignedIn = useSelector((state: AppState) => state.signIn.signedIn)
     return (
-        <div style={topbarStyle} >
+        <div className="topbar">
             <div>
                 Kala-Appi
             </div>
             <SearchBar />
             <LanguageSelector />
-            <SignIn />  
+            {isSignedIn ? <MyInformation /> : <SignIn />}
+            <Users />
         </div>
     )
 }

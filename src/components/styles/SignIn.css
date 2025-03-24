@@ -1,0 +1,91 @@
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 90%;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.signin {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.signin:hover {
+    background-color: #0056b3;
+}

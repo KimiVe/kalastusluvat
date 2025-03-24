@@ -1,15 +1,24 @@
-import { theme } from "../../theme"
 import { useSelector } from "react-redux"
 import { AppState } from "../../store"
+import '../styles/TopBar.css'
+import { useNavigate } from "react-router-dom"
+import { useState } from "react"
 
 
 const SearchBar = () => {
     const textContent = useSelector((state:AppState) => state.selectedLanguage.content)
+    const [searchInput, setSearchInput] = useState('');
+    const navigate = useNavigate();
+
+    const handleSearch = () => {
+        navigate('/search', {state:{searchInput}})
+        setSearchInput('')
+    }
+
     return(
-        <div style={{display:'flex', flexDirection:'row', height: '30px'
-        }}>
-            <input type="text" style={{border: 'none'}} placeholder={textContent.MenuBar.searchBar}  />
-            <div style={{backgroundColor: theme.colors.green1,width: '45px', alignContent: 'center', textAlign:'center', cursor: 'pointer'}}>{textContent.MenuBar.search}</div>
+        <div className="searchbar">
+            <input className="searchbar-input" type="text" value={searchInput} onChange={(v) => setSearchInput(v.target.value)}/>
+            <div className="searchbar-button" onClick={handleSearch}>{textContent.MenuBar.search}</div>
         </div>
     )
 }

@@ -9,8 +9,13 @@
         "aboutUs": "About us"
     },
     "loginButton" : {
-        "titile0": "Log in",
-        "title1": "My information"
+        "login": "Log in"
+    },
+    "myInformationButton" : {
+        "myInformation": "My information",
+        "myLicenses": "Licences",
+        "shoppingCart": "Shopping cart",
+        "signout": "Sign Out"
     },
     "loginBox" : {
         "email" : "Email",
@@ -72,12 +77,14 @@
         "activeLicencesHeader": "Active licenses",
         "oldLicencesHeader": "Expired licenses"
     },
-    "profile":  {
+    "Profile":  {
         "header": "My information",
         "name" : "Name",
         "address": "Address",
         "phoneNumber": "Phone number",
-        "email": "Email"
+        "email": "Email",
+        "edit" : "Edit",
+        "save" : "Save"
     },
     "license":  {
         "bodyOfWater": "Body of water",
@@ -115,7 +122,7 @@
 },
 
 "Aboutuspage": {
-  "text2": "Welcome to use Kala-App!",
+  "text2": "Welcome to use Kala-Appi!",
   "text3": "On this site, you can purchase fishing licenses across Finland."
 
 }

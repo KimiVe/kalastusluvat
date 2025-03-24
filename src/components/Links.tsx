@@ -1,50 +1,39 @@
-import { theme } from "../theme"
+import './styles/Links.css'
 import { Link } from "react-router-dom"
+import { AppState } from '../store'
+import { useSelector } from 'react-redux'
+import { useLocation } from 'react-router-dom'
 
 const Links = () => {
-    const linkStyle = {
-        textDecoration: 'none',
-        color: theme.colors.white,
-   
-    }
-    const linkBackground = {
-        backgroundColor: theme.colors.green4,
-        padding: '5px',
-        display: 'flex',
-        alignContent: 'center',
-        flexGrow: 1,
-        justifyContent: 'center'
-    }
+    const content = useSelector((state:AppState) => state.selectedLanguage.content)
+    const location = useLocation();
 
     return (
-        <div style={{display: "flex", flexDirection: "row"}}>
-            <div style={{backgroundColor: theme.colors.green1, flexGrow: 1}}>
-            </div>
-            <div style={{flexGrow: 3, display:'flex', justifyContent:'space-evenly'}}>
-                <div style={linkBackground}>
-                <Link to={'/'} style={linkStyle}>
-                    Etusivu
+        <div className='linkbar'>
+            <div className='sidefiller' />
+            <div className='link-wrapper'>
+                <div className={location.pathname === '/' ? 'link-background-active' : 'link-background'}>
+                <Link className='link' to={'/'}>
+                    {content.MenuBar.frontPage}
                 </Link>
                 </div>
-               <div style={linkBackground}>
-               <Link to={'/search'} style={linkStyle}>
-                    Tarkennettu haku
+               <div className={location.pathname === '/search' ? 'link-background-active' : 'link-background'}>
+               <Link className='link' to={'/search'} >
+                    {content.MenuBar.advancedSearch}
                 </Link>
                </div>
-                <div style={linkBackground}>
-                <Link to={'/questions'} style={linkStyle}>
-                    Yleiset kysymykset
+                <div className={location.pathname === '/questions' ? 'link-background-active' : 'link-background'}>
+                <Link className='link' to={'/questions'} >
+                    {content.MenuBar.commonQuestions}
                 </Link>
                 </div>
-                <div style={linkBackground}>
-                <Link to={'/aboutus'} style={linkStyle}>
-                    Tietoa meistä
+                <div className={location.pathname === '/aboutus' ? 'link-background-active' : 'link-background'}>
+                <Link className='link' to={'/aboutus'} >
+                    {content.MenuBar.aboutUs}
                 </Link>
                 </div>
-                
             </div>
-            <div style={{backgroundColor: theme.colors.green1, flexGrow: 1}}>
-            </div>
+            <div className='sidefiller' />
         </div>
     )
 }
