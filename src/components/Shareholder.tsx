@@ -1,4 +1,3 @@
-import React from 'react';
 import './Shareholder.css';
 import './textContentFI.json';
 
