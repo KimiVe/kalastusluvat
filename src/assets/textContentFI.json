@@ -31,7 +31,7 @@
         "password" : "Salasana",
         "firstNames" : "Etunimet",
         "lastName" : "Sukunimi",
-        "fullName" : "Kokonimi",
+        "fullname" : "Kokonimi",
         "address" : "Osoite",
         "phoneNumber" : "Puhelinnumero",
         "dateOfBirth" : "Syntymäaika",
