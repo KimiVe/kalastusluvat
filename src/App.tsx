@@ -12,6 +12,7 @@ import Links from './components/Links'
 import Profile from './components/Profile'
 import ShoppingCart from './components/ShoppingCart'
 import MyLicences from './components/MyLicences'
+import LicencePage from './components/LicencePage'
 import { initializeLicences } from './reducers/licenceReducer'
 import { AppDispatch } from './store'
 
@@ -33,7 +34,8 @@ const App = () => {
         <Route path='/aboutus' element={<Aboutuspage />} />
         <Route path='/myinformation' element={<Profile />} />
         <Route path='/shoppingcart' element={<ShoppingCart />} />
-        <Route path='/licenses' element={<MyLicences />} />
+        <Route path='/licences' element={<MyLicences />} />
+        <Route path='/licence:id' element={<LicencePage />} />
       </Routes>
       <Footer />
     </div>

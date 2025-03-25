@@ -1,20 +1,21 @@
 import { useSelector } from "react-redux";
 import { AppState } from "../store";
 import "./styles/SharedStyles.css";
+import { useParams } from "react-router-dom";
 
 const LicencePage = () => {
-
     const content = useSelector((state: AppState) => state.selectedLanguage.content)
     const licences = useSelector((state: AppState) => state.licences);
-    const id = 1;
+    const id = useParams<{ id: string }>();
 
-    const licence = licences.find(elemet => {
-        return elemet.lupa_id === id;
+    const licence = licences.find(licence => {
+        //Tässä saattaa olla ongelmaa. id pitäs olla number, mutta vscode väittää, että string kelpaa?
+        return licence.lupa_id === id;
     })
 
     if (!licence) {
         return (
-            <div>
+            <div className="content-box">
                 <p>No such licence found</p>
             </div>
         )
