@@ -10,21 +10,22 @@ interface Licence {
     paikkakunta: string;
     vesisto: string;
     nimi: string;
-  }
-  
+    aika: string;
+}
+
 const initialState: Licence[] = [];
 
 const licenceSlice = createSlice({
     name: 'licences',
     initialState,
     reducers: {
-        setLicences(_state, action){
+        setLicences(_state, action) {
             return action.payload
         }
     }
 })
 
-export const {setLicences} = licenceSlice.actions
+export const { setLicences } = licenceSlice.actions
 
 export const initializeLicences = () => {
     return async (dispatch: Dispatch<{ payload: any; type: "licences/setLicences"; }>) => {
