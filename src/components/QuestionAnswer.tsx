@@ -12,7 +12,5 @@ function QuestionAnswer({ question, answer }: QuestionAnswerProps) {
             <p className="content-text">{answer}</p>
         </>
     )
-
-
 }
 export default QuestionAnswer;
