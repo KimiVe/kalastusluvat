@@ -18,6 +18,7 @@
         "signout": "Kirjaudu ulos"
     },
     "loginBox" : {
+        "username" : "Käyttäjätunnus",
         "email" : "Sähköposti",
         "password" : "Salasana",
         "passwordDescription" : "Unohtuiko salasanasi?",
@@ -30,6 +31,9 @@
         "password" : "Salasana",
         "firstNames" : "Etunimet",
         "lastName" : "Sukunimi",
+        "fullname" : "Kokonimi",
+        "address" : "Osoite",
+        "phoneNumber" : "Puhelinnumero",
         "dateOfBirth" : "Syntymäaika",
         "chooseMonth" : "Valitse kuukausi",
         "chooseYear" : "Valitse vuosi",
