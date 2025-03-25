@@ -1,5 +1,5 @@
 {
-    "MenuBar":  {
+    "MenuBar": {
         "language": "Suomi",
         "search": "Hae",
         "searchBar": "Hae kalalupaa",
@@ -8,39 +8,39 @@
         "commonQuestions": "Yleiset kysymykset",
         "aboutUs": "Tietoa meistä"
     },
-    "loginButton" : {
+    "loginButton": {
         "login": "Kirjaudu sisään"
     },
-    "myInformationButton" : {
+    "myInformationButton": {
         "myInformation": "Omat tiedot",
         "myLicenses": "Luvat",
         "shoppingCart": "Ostoskori",
         "signout": "Kirjaudu ulos"
     },
-    "loginBox" : {
-        "username" : "Käyttäjätunnus",
-        "email" : "Sähköposti",
-        "password" : "Salasana",
-        "passwordDescription" : "Unohtuiko salasanasi?",
+    "loginBox": {
+        "username": "Käyttäjätunnus",
+        "email": "Sähköposti",
+        "password": "Salasana",
+        "passwordDescription": "Unohtuiko salasanasi?",
         "logginButton": "Kirjaudu sisään",
         "createAccountButton": "Luo käyttäjä",
         "createAccountButtonDescription": "Eikö sinulla ole vielä käyttäjää?"
     },
-    "registerBox":  {
-        "email" : "Sähköposti",
-        "password" : "Salasana",
-        "firstNames" : "Etunimet",
-        "lastName" : "Sukunimi",
-        "fullname" : "Kokonimi",
-        "address" : "Osoite",
-        "phoneNumber" : "Puhelinnumero",
-        "dateOfBirth" : "Syntymäaika",
-        "chooseMonth" : "Valitse kuukausi",
-        "chooseYear" : "Valitse vuosi",
+    "registerBox": {
+        "email": "Sähköposti",
+        "password": "Salasana",
+        "firstNames": "Etunimet",
+        "lastName": "Sukunimi",
+        "fullname": "Kokonimi",
+        "address": "Osoite",
+        "phoneNumber": "Puhelinnumero",
+        "dateOfBirth": "Syntymäaika",
+        "chooseMonth": "Valitse kuukausi",
+        "chooseYear": "Valitse vuosi",
         "CreateAccountButton": "Hyväksy ja luo käyttäjä",
         "CreateAccountButtonDescription": "Tietoturva lorem ipsum",
-        "link0" : "Tietosuojalauseke",
-        "link1" : "Käyttöehdot"
+        "link0": "Tietosuojalauseke",
+        "link1": "Käyttöehdot"
     },
     "frontPage": {
         "text0Header": "Yli 1000 kalalupaa helposti saatavilla",
@@ -49,89 +49,85 @@
         "text1Content": "Kalastonhoitomaksu on kalastajan pakollinen perusmaksu, joka tulee maksaa, jos on iältään 18–69-vuotias ja kalastaa vieheellä tai pyydyksillä tai ravustaa. Tämä tarkoittaa sitä, että kun kalastat esimerkiksi virvelillä, verkoilla tai katiskalla, tarvitset aina kalastonhoitomaksun. Poikkeuksena ovat kalastajat, jotka ehtivät täyttää vähintään 65 vuotta 31.12.2023 mennessä.",
         "text1Button": "Maksa kalastonhoito maksu"
     },
-
     "advancedSearch": {
         "searchBar": "Hakusana",
-        "fish" : "Kalalaji",
+        "fish": "Kalalaji",
         "fishinType": "Kalastusmuoto",
-        "region" : "Maakunta",
-        "city" : "Paikkakunta",
+        "region": "Maakunta",
+        "city": "Paikkakunta",
         "bodyOfWater": "Vesistö",
         "searchButton": "Hae",
         "showMore": "Näytä lisää"
     },
- 
-    "commonQuestions":{
-        "question0" : "Miten voin ostaa luvan?",
-        "answer0" : "Voit ostaa luvan, kun olet luonut käyttäjän",
-        "question1" : "Voinko kalastaa kaverin luvalla?",
-        "answer1" : "Et voi. Luvat ovat käytettävissä vain käyttäjän omistajalle.",
-        "question2" : "Voiko monitoimikoneella oikeasti raastaa, pilkkoa ja sekoittaa?",
-        "answer2" : "Katso seuraava jakso.",
-        "question3" : "Onko hauki kala?",
-        "answer3" : "Ei. Hauki on suomen kansallislintu",
-        "question4" : "Onko nämä vitsit muka hauskoja?",
-        "answer4" : "Ei pitäisi olla. Jos nauroit, mene suoraan sairaalaan tai vankilaan tilanteesta riippuen",
-        "question5" : "Mitä kidukset ovat?",
-        "answer5" : "Kidukset (lat. branchia) ovat vedessä elävien eläinten hengityselimet. Ne ovat tavallisesti runsasverisuonisia ihon tai limakalvon poimuja, joiden ohuiden seinämien kautta tapahtuu kaasunvaihto veren ja ympäröivän veden välillä. Alkeellisimmat kidukset ovat rihmamaisia, mutta koska mahdollisimman laaja hengityspinta on edullisin, ovat useimmat kidukset kehittyneet lehti-, sulka-, kampa- tai tupsumaisiksi. Toisinaan ne sijaitsevat peitteettöminä ruumiin pinnalla (monilla nivelmadoilla, äyriäisillä ja sammakontoukilla), toisinaan taas vaipan (monet nilviäiset) tai kiduskansien (kalat) peitossa."
+    "commonQuestions": {
+        "question0": "Miten voin ostaa luvan?",
+        "answer0": "Voit ostaa luvan, kun olet luonut käyttäjän",
+        "question1": "Voinko kalastaa kaverin luvalla?",
+        "answer1": "Et voi. Luvat ovat käytettävissä vain käyttäjän omistajalle.",
+        "question2": "Voiko monitoimikoneella oikeasti raastaa, pilkkoa ja sekoittaa?",
+        "answer2": "Katso seuraava jakso.",
+        "question3": "Onko hauki kala?",
+        "answer3": "Ei. Hauki on suomen kansallislintu",
+        "question4": "Onko nämä vitsit muka hauskoja?",
+        "answer4": "Ei pitäisi olla. Jos nauroit, mene suoraan sairaalaan tai vankilaan tilanteesta riippuen",
+        "question5": "Mitä kidukset ovat?",
+        "answer5": "Kidukset (lat. branchia) ovat vedessä elävien eläinten hengityselimet. Ne ovat tavallisesti runsasverisuonisia ihon tai limakalvon poimuja, joiden ohuiden seinämien kautta tapahtuu kaasunvaihto veren ja ympäröivän veden välillä. Alkeellisimmat kidukset ovat rihmamaisia, mutta koska mahdollisimman laaja hengityspinta on edullisin, ovat useimmat kidukset kehittyneet lehti-, sulka-, kampa- tai tupsumaisiksi. Toisinaan ne sijaitsevat peitteettöminä ruumiin pinnalla (monilla nivelmadoilla, äyriäisillä ja sammakontoukilla), toisinaan taas vaipan (monet nilviäiset) tai kiduskansien (kalat) peitossa."
     },
-    "aboutUs":{
-        "text0" : "Lorem ipsum",
-        "text1" : "Lorem ipsum"
+    "aboutUs": {
+        "text0": "Lorem ipsum",
+        "text1": "Lorem ipsum"
     },
-    "myLicences":{
+    "myLicences": {
         "activeLicencesHeader": "Aktiiviset Luvat",
         "oldLicencesHeader": "Vanhentuneet Luvat"
     },
-    "Profile":  {
+    "Profile": {
         "header": "Omat tiedot",
-        "name" : "Nimi",
+        "name": "Nimi",
         "address": "Osoite",
         "phoneNumber": "Puhelinnumero",
         "email": "Sähköposti",
-        "edit" : "Muokkaa",
-        "save" : "Tallenna"
+        "edit": "Muokkaa",
+        "save": "Tallenna"
     },
-    "license":  {
+    "license": {
         "bodyOfWater": "Vesistö",
         "fish": "Kalalajike",
         "time": "Aika",
         "price": "Hinta",
+        "fishinType": "Kalastusmuoto",
+        "region": "Maakunta",
+        "city": "Paikkakunta",
         "sellerButton": "Katso muita luvanmyyjän lupia",
         "buyButton": "Osta lupa"
     },
-    "seller":   {
+    "seller": {
         "text0": "Lorem ipsum"
     },
     "cart": {
-        "shoppingCart" : "Ostoskori",
-        "buyer" : "Vastaanottaja",
-        "payment" : "Maksutapa",
-        "shoppingCartDescription" : " tuote, yhteensä ",
-        "shoppingCartDescriptionPlural" : " tuotetta, yhteensä",
+        "shoppingCart": "Ostoskori",
+        "buyer": "Vastaanottaja",
+        "payment": "Maksutapa",
+        "shoppingCartDescription": " tuote, yhteensä ",
+        "shoppingCartDescriptionPlural": " tuotetta, yhteensä",
         "totalAmountText0": "Veroton hinta yhteensä ",
         "totalAmountText1": "+ alv ",
         "totalAmountText2": "Yhteensä ",
-        "email" :"Sähköposti",
-        "firstNames" :"Etunimet",
-        "lastName" : "Sukunimi",
-        "address" : "Laskutussoite",
-        "phoneNumber":"Puhelinnumero",
+        "email": "Sähköposti",
+        "firstNames": "Etunimet",
+        "lastName": "Sukunimi",
+        "address": "Laskutussoite",
+        "phoneNumber": "Puhelinnumero",
         "continueButton": "Siirry maksamaan"
     },
-
     "Footer": {
-        "cookies" : "Tietoja evästeistä",
-        "social-media" : "Sosiaalinen media",
-        "contact" : "Ota yhteyttä",
-        "feedback" : "Anna palautetta"
-
+        "cookies": "Tietoja evästeistä",
+        "social-media": "Sosiaalinen media",
+        "contact": "Ota yhteyttä",
+        "feedback": "Anna palautetta"
     },
-
     "Aboutuspage": {
         "text2": "Tervetuloa käyttämään Kala-Appia!",
         "text3": "Tällä sivustolla pystyt ostamaan kalastuslupia ympäri Suomea."
-
     }
-    
 }

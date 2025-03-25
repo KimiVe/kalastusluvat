@@ -18,6 +18,29 @@
     padding-bottom: 1%;
 }
 
+.generic-button {
+    background-color: var(--primaryColour);
+    /* Taustaväri */
+    color: var(--white);
+    /* Tekstiväri */
+    padding: 12px 20px;
+    /* Täytteen lisääminen */
+    border: none;
+    /* Ei reunusta */
+    border-radius: 5px;
+    /* Pyöristetyt kulmat */
+    font-size: 1rem;
+    /* Kirjasinkoko */
+    cursor: pointer;
+    /* Näyttää käden kuvakkeen */
+    transition: background-color 0.3s ease;
+    /* Siirtymän lisääminen hover-efektiin */
+    text-decoration: none;
+    /* Poistaa linkin alaviivan */
+    display: inline-block;
+    /* Asetetaan nappi inline-elementiksi */
+}
+
 .content-text-header {
     color: var(--textColour);
     font-weight: bold;
@@ -41,7 +64,7 @@
     margin-right: auto;
     background-color: var(--secondaryBackground);
     padding-bottom: 1%;
-    
+
 }
 
 .homepage .content-text-header {
@@ -51,32 +74,42 @@
     padding-left: 20%;
     padding-right: 20%;
     text-align: center;
-    
+
 }
 
 .homepage .content-text {
     color: var(--textColour);
     padding-left: 5%;
     padding-right: 5%;
-    
+
 }
 
 /* Etusivulle erillinen säätö kalastonhoitomaksun napille */
 .homepage .kalastonhoito-btn {
-    background-color: var(--primaryColour);  /* Taustaväri */
-    color: var(--white);  /* Tekstiväri */
-    padding: 12px 20px;  /* Täytteen lisääminen */
-    border: none;  /* Ei reunusta */
-    border-radius: 5px;  /* Pyöristetyt kulmat */
-    font-size: 1rem;  /* Kirjasinkoko */
-    cursor: pointer;  /* Näyttää käden kuvakkeen */
-    transition: background-color 0.3s ease;  /* Siirtymän lisääminen hover-efektiin */
-    text-decoration: none;  /* Poistaa linkin alaviivan */
-    display: inline-block;  /* Asetetaan nappi inline-elementiksi */
+    background-color: var(--primaryColour);
+    /* Taustaväri */
+    color: var(--white);
+    /* Tekstiväri */
+    padding: 12px 20px;
+    /* Täytteen lisääminen */
+    border: none;
+    /* Ei reunusta */
+    border-radius: 5px;
+    /* Pyöristetyt kulmat */
+    font-size: 1rem;
+    /* Kirjasinkoko */
+    cursor: pointer;
+    /* Näyttää käden kuvakkeen */
+    transition: background-color 0.3s ease;
+    /* Siirtymän lisääminen hover-efektiin */
+    text-decoration: none;
+    /* Poistaa linkin alaviivan */
+    display: inline-block;
+    /* Asetetaan nappi inline-elementiksi */
 }
 
 .homepage .kalastonhoito-btn:hover {
-    background-color: var(--activeColour);  
+    background-color: var(--activeColour);
 }
 
 .homepage .content-container {
@@ -85,6 +118,7 @@
     align-items: flex-start;
     width: 100%;
 }
+
 /* Kartta
 .map-container {
     flex: 0 0 100px; 
@@ -97,4 +131,3 @@
     border-radius: 8px;
 }*/
 /* Etusivuun liittyviä lisättyjä komponetteja */
-
