@@ -11,6 +11,7 @@ interface Licence {
     vesisto: string;
     nimi: string;
     aika: string;
+    hinta: number;
 }
 
 const initialState: Licence[] = [];

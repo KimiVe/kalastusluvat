@@ -109,7 +109,7 @@
         "buyer": "Vastaanottaja",
         "payment": "Maksutapa",
         "shoppingCartDescription": " tuote, yhteensä ",
-        "shoppingCartDescriptionPlural": " tuotetta, yhteensä",
+        "shoppingCartDescriptionPlural": " tuotetta, yhteensä ",
         "totalAmountText0": "Veroton hinta yhteensä ",
         "totalAmountText1": "+ alv ",
         "totalAmountText2": "Yhteensä ",
