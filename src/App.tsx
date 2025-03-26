@@ -11,7 +11,8 @@ import Aboutuspage from './components/Aboutuspage'
 import Links from './components/Links'
 import Profile from './components/Profile'
 import ShoppingCart from './components/ShoppingCart'
-import Licenses from './components/Licenses'
+import MyLicences from './components/MyLicences'
+import LicencePage from './components/LicencePage'
 import { initializeLicences } from './reducers/licenceReducer'
 import { AppDispatch } from './store'
 
@@ -20,20 +21,21 @@ const App = () => {
 
   useEffect(() => {
     dispatch(initializeLicences())
-  },[dispatch])
+  }, [dispatch])
 
   return (
     <div>
       <TopBar />
       <Links />
       <Routes>
-        <Route path='/' element={<Homepage />}/>
-        <Route path='/search' element={<Searchpage />}/>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/search' element={<Searchpage />} />
         <Route path='/questions' element={<Questionspage />} />
         <Route path='/aboutus' element={<Aboutuspage />} />
         <Route path='/myinformation' element={<Profile />} />
         <Route path='/shoppingcart' element={<ShoppingCart />} />
-        <Route path='/licenses' element={<Licenses />} />
+        <Route path='/licences' element={<MyLicences />} />
+        <Route path='/licence:id' element={<LicencePage />} />
       </Routes>
       <Footer />
     </div>

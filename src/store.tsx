@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import languageReducer from "./reducers/languageReducer";
-import userProfileReducer from "./reducers/userReducer"; 
+import userProfileReducer from "./reducers/userReducer";
 import licenceReducer from "./reducers/licenceReducer"
 import signInReducer from "./reducers/signInReducer"
 

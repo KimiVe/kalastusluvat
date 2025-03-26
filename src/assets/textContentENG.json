@@ -1,5 +1,5 @@
 {
-    "MenuBar":  {
+    "MenuBar": {
         "language": "English",
         "search": "Search",
         "searchBar": "Search for fishing license",
@@ -8,39 +8,39 @@
         "commonQuestions": "Common questions",
         "aboutUs": "About us"
     },
-    "loginButton" : {
+    "loginButton": {
         "login": "Log in"
     },
-    "myInformationButton" : {
+    "myInformationButton": {
         "myInformation": "My information",
         "myLicenses": "Licences",
         "shoppingCart": "Shopping cart",
         "signout": "Sign Out"
     },
-    "loginBox" : {
-        "username" : "Username",
-        "email" : "Email",
-        "password" : "Password",
-        "passwordDescription" : "Forgot your password?",
+    "loginBox": {
+        "username": "Username",
+        "email": "Email",
+        "password": "Password",
+        "passwordDescription": "Forgot your password?",
         "logginButton": "Log in",
         "createAccountButton": "Create account",
         "createAccountButtonDescription": "Don't have an account yet?"
     },
-    "registerBox":  {
-        "email" : "Email",
-        "password" : "Password",
-        "firstNames" : "First names",
-        "lastName" : "Last name",
-        "fullname" : "Full name",
-        "address" : "Address",
-        "phoneNumber" :"Phone number",
-        "dateOfBirth" : "Date of birth",
-        "chooseMonth" : "Choose month",
-        "chooseYear" : "Choose year",
+    "registerBox": {
+        "email": "Email",
+        "password": "Password",
+        "firstNames": "First names",
+        "lastName": "Last name",
+        "fullname": "Full name",
+        "address": "Address",
+        "phoneNumber": "Phone number",
+        "dateOfBirth": "Date of birth",
+        "chooseMonth": "Choose month",
+        "chooseYear": "Choose year",
         "CreateAccountButton": "Accept and create account",
         "CreateAccountButtonDescription": "Data security lorem ipsum",
-        "link0" : "Privacy policy",
-        "link1" : "Terms of use"
+        "link0": "Privacy policy",
+        "link1": "Terms of use"
     },
     "frontPage": {
         "text0Header": "Lorem Ipsum in English",
@@ -51,83 +51,83 @@
     },
     "advancedSearch": {
         "searchBar": "Keyword",
-        "fish" : "Fish species",
+        "fish": "Fish species",
         "fishinType": "Fishing type",
-        "region" : "Region",
-        "city" : "City",
+        "region": "Region",
+        "city": "City",
         "bodyOfWater": "Body of water",
         "searchButton": "Search",
         "showMore": "Show more"
     },
-    "commonQuestions":{
-        "question0" : "Lorem",
-        "answer0" : "Ipsum",
-        "question1" : "Lorem",
-        "answer1" : "Ipsum",
-        "question2" : "Voiko monitoimikoneella oikeasti raastaa, pilkkoa ja sekoittaa?",
-        "answer2" : "Katso seuraava jakso.",
-        "question3" : "Onko hauki kala?",
-        "answer3" : "Ei. Hauki on suomen kansallislintu",
-        "question4" : "Onko nämä vitsit muka hauskoja?",
-        "answer4" : "Ei pitäisi olla. Jos nauroit, mene suoraan sairaalaan tai vankilaan tilanteesta riippuen",
-        "question5" : "Mitä kidukset ovat?",
-        "answer5" : "Kidukset (lat. branchia) ovat vedessä elävien eläinten hengityselimet. Ne ovat tavallisesti runsasverisuonisia ihon tai limakalvon poimuja, joiden ohuiden seinämien kautta tapahtuu kaasunvaihto veren ja ympäröivän veden välillä. Alkeellisimmat kidukset ovat rihmamaisia, mutta koska mahdollisimman laaja hengityspinta on edullisin, ovat useimmat kidukset kehittyneet lehti-, sulka-, kampa- tai tupsumaisiksi. Toisinaan ne sijaitsevat peitteettöminä ruumiin pinnalla (monilla nivelmadoilla, äyriäisillä ja sammakontoukilla), toisinaan taas vaipan (monet nilviäiset) tai kiduskansien (kalat) peitossa."
+    "commonQuestions": {
+        "question0": "Lorem",
+        "answer0": "Ipsum",
+        "question1": "Lorem",
+        "answer1": "Ipsum",
+        "question2": "Voiko monitoimikoneella oikeasti raastaa, pilkkoa ja sekoittaa?",
+        "answer2": "Katso seuraava jakso.",
+        "question3": "Onko hauki kala?",
+        "answer3": "Ei. Hauki on suomen kansallislintu",
+        "question4": "Onko nämä vitsit muka hauskoja?",
+        "answer4": "Ei pitäisi olla. Jos nauroit, mene suoraan sairaalaan tai vankilaan tilanteesta riippuen",
+        "question5": "Mitä kidukset ovat?",
+        "answer5": "Kidukset (lat. branchia) ovat vedessä elävien eläinten hengityselimet. Ne ovat tavallisesti runsasverisuonisia ihon tai limakalvon poimuja, joiden ohuiden seinämien kautta tapahtuu kaasunvaihto veren ja ympäröivän veden välillä. Alkeellisimmat kidukset ovat rihmamaisia, mutta koska mahdollisimman laaja hengityspinta on edullisin, ovat useimmat kidukset kehittyneet lehti-, sulka-, kampa- tai tupsumaisiksi. Toisinaan ne sijaitsevat peitteettöminä ruumiin pinnalla (monilla nivelmadoilla, äyriäisillä ja sammakontoukilla), toisinaan taas vaipan (monet nilviäiset) tai kiduskansien (kalat) peitossa."
     },
-    "aboutUs":{
-        "text0" : "Lorem ipsum",
-        "text1" : "Lorem ipsum"
+    "aboutUs": {
+        "text0": "Lorem ipsum",
+        "text1": "Lorem ipsum"
     },
-    "myLicences":{
+    "myLicences": {
         "activeLicencesHeader": "Active licenses",
         "oldLicencesHeader": "Expired licenses"
     },
-    "Profile":  {
+    "Profile": {
         "header": "My information",
-        "name" : "Name",
+        "name": "Name",
         "address": "Address",
         "phoneNumber": "Phone number",
         "email": "Email",
-        "edit" : "Edit",
-        "save" : "Save"
+        "edit": "Edit",
+        "save": "Save"
     },
-    "license":  {
+    "license": {
         "bodyOfWater": "Body of water",
         "fish": "Fish species",
         "time": "Time",
         "price": "Price",
+        "region": "Region",
+        "city": "City",
+        "fishinType": "Kalastusmuoto",
         "sellerButton": "See other licenses from the seller",
         "buyButton": "Buy license"
     },
-    "seller":   {
+    "seller": {
         "text0": "Lorem ipsum"
     },
     "cart": {
-        "shoppingCart" : "Shopping cart",
-        "buyer" : "Recipient",
-        "payment" : "Payment method",
-        "shoppingCartDescription" : " product, total ",
-        "shoppingCartDescriptionPlural" : " products, total",
+        "shoppingCart": "Shopping cart",
+        "buyer": "Recipient",
+        "payment": "Payment method",
+        "shoppingCartDescription": " product, total ",
+        "shoppingCartDescriptionPlural": " products, total",
         "totalAmountText0": "Total price excluding tax ",
         "totalAmountText1": "+ VAT ",
         "totalAmountText2": "Total ",
-        "email" :"Email",
-        "firstNames" :"First names",
-        "lastName" : "Last name",
-        "address" : "Address",
-        "phoneNumber":"Phone number",
+        "email": "Email",
+        "firstNames": "First names",
+        "lastName": "Last name",
+        "address": "Address",
+        "phoneNumber": "Phone number",
         "continueButton": "Proceed to payment"
     },
-
     "Footer": {
-        "cookies" : "Cookies",
-        "social-media" : "Social media",
-        "contact" : "Contact us",
-        "feedback" : "Give feedback"
-},
-
-"Aboutuspage": {
-  "text2": "Welcome to use Kala-Appi!",
-  "text3": "On this site, you can purchase fishing licenses across Finland."
-
-}
+        "cookies": "Cookies",
+        "social-media": "Social media",
+        "contact": "Contact us",
+        "feedback": "Give feedback"
+    },
+    "Aboutuspage": {
+        "text2": "Welcome to use Kala-Appi!",
+        "text3": "On this site, you can purchase fishing licenses across Finland."
+    }
 }

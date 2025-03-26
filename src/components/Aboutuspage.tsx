@@ -41,7 +41,6 @@ const Aboutuspage = () => {
         >
           Kala-Appi
         </h2>
-
         <div>
           <p>{content.Aboutuspage.text2}</p>
           <p>{content.Aboutuspage.text3}</p>
