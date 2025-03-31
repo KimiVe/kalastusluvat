@@ -65,7 +65,7 @@ vaihda content-text-header -> content-header
 }
 
 /* Etusivulle erillinen säätö kalastonhoitomaksun napille */
-.homepage .kalastonhoito-btn {
+.kalastonhoito-btn {
     background-color: var(--primaryColour);
     color: var(--white);
     padding: 12px 20px;
