@@ -127,7 +127,8 @@
         "feedback": "Give feedback"
     },
     "Aboutuspage": {
-        "text2": "Welcome to use Kala-Appi!",
-        "text3": "On this site, you can purchase fishing licenses across Finland."
+        "header": "About us",
+        "text1": "Welcome to use Kala-Appi!",
+        "text2": "On this site, you can purchase fishing licenses across Finland."
     }
 }
