@@ -73,10 +73,6 @@
         "question5": "Mitä kidukset ovat?",
         "answer5": "Kidukset (lat. branchia) ovat vedessä elävien eläinten hengityselimet. Ne ovat tavallisesti runsasverisuonisia ihon tai limakalvon poimuja, joiden ohuiden seinämien kautta tapahtuu kaasunvaihto veren ja ympäröivän veden välillä. Alkeellisimmat kidukset ovat rihmamaisia, mutta koska mahdollisimman laaja hengityspinta on edullisin, ovat useimmat kidukset kehittyneet lehti-, sulka-, kampa- tai tupsumaisiksi. Toisinaan ne sijaitsevat peitteettöminä ruumiin pinnalla (monilla nivelmadoilla, äyriäisillä ja sammakontoukilla), toisinaan taas vaipan (monet nilviäiset) tai kiduskansien (kalat) peitossa."
     },
-    "aboutUs": {
-        "text0": "Lorem ipsum",
-        "text1": "Lorem ipsum"
-    },
     "myLicences": {
         "activeLicencesHeader": "Aktiiviset Luvat",
         "oldLicencesHeader": "Vanhentuneet Luvat"
@@ -127,7 +123,8 @@
         "feedback": "Anna palautetta"
     },
     "Aboutuspage": {
-        "text2": "Tervetuloa käyttämään Kala-Appia!",
-        "text3": "Tällä sivustolla pystyt ostamaan kalastuslupia ympäri Suomea."
+        "header": "Tieto meistä",
+        "text1": "Tervetuloa käyttämään Kala-Appia!",
+        "text2": "Tällä sivustolla pystyt ostamaan kalastuslupia ympäri Suomea."
     }
 }
