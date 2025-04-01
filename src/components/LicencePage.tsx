@@ -1,13 +1,11 @@
 import { useSelector } from "react-redux";
 import { AppState } from "../store";
-import { useParams } from "react-router-dom";
 import "./styles/SharedStyles.css";
 import "./styles/LicencePage.css";
 
 const LicencePage = () => {
     const content = useSelector((state: AppState) => state.selectedLanguage.content)
-    const licences = useSelector((state: AppState) => state.licences);
-    const id = useParams<{ id: string }>();
+
 
     const licence = {
         nimi: "Seinäjoki Harjus", maakunta: "Etelä-pohjanmaa",
