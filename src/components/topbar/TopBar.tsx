@@ -17,7 +17,6 @@ const TopBar = () => {
             <SearchBar />
             <LanguageSelector />
             {isSignedIn ? <MyInformation /> : <SignIn />}
-            <Users />
         </div>
     )
 }

@@ -10,7 +10,6 @@ import Questionspage from './components/Questionspage'
 import Aboutuspage from './components/Aboutuspage'
 import Links from './components/Links'
 import Profile from './components/Profile'
-import ShoppingCart from './components/ShoppingCart'
 import MyLicences from './components/MyLicences'
 import LicencePage from './components/LicencePage'
 import { initializeLicences } from './reducers/licenceReducer'
@@ -33,7 +32,6 @@ const App = () => {
         <Route path='/questions' element={<Questionspage />} />
         <Route path='/aboutus' element={<Aboutuspage />} />
         <Route path='/myinformation' element={<Profile />} />
-        <Route path='/shoppingcart' element={<ShoppingCart />} />
         <Route path='/licences' element={<MyLicences />} />
         <Route path='/licence:id' element={<LicencePage />} />
       </Routes>
