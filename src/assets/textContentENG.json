@@ -17,6 +17,10 @@
         "shoppingCart": "Shopping cart",
         "signout": "Sign Out"
     },
+    "aboutUs": {
+        "text0": "Lorem ipsum",
+        "text1": "Lorem ipsum"
+    },
     "loginBox": {
         "username": "Username",
         "email": "Email",

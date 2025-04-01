@@ -5,7 +5,6 @@ import '../styles/TopBar.css'
 import SignIn from "./SignIn"
 import { useSelector } from "react-redux"
 import { AppState } from "../../store"
-import Users from "./Users"
 
 const TopBar = () => {
     const isSignedIn = useSelector((state: AppState) => state.signIn.signedIn)

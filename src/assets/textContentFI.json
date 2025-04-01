@@ -17,6 +17,10 @@
         "shoppingCart": "Ostoskori",
         "signout": "Kirjaudu ulos"
     },
+    "aboutUs": {
+        "text0": "Lorem ipsum",
+        "text1": "Lorem ipsum"
+    },
     "loginBox": {
         "username": "Käyttäjätunnus",
         "email": "Sähköposti",
